@@ -190,7 +190,7 @@ h3.headers {
   padding-bottom: 3px;
 }
 #board_email:hover {
-  content: url("/images/miscellaneous/email_red.png");
+  content: url("/public/images/miscellaneous/email_red.png");
 }
 #board_title_box {
   display: inline;

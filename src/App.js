@@ -1,10 +1,10 @@
 import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Connect from "../src/pages/Connect";
-import About from "../src/pages/About";
-import Points from "../src/pages/Points";
-import NavBar from "../src/components/NavBar";
-import Home from "../src/pages/Home";
+import Connect from "../src/pages/Connect.jsx";
+import About from "../src/pages/About.jsx";
+import Points from "../src/pages/Points.jsx";
+import NavBar from "../src/components/NavBar.js";
+import Home from "../src/pages/Home.jsx";
 function App() {
   return (
     <div>
