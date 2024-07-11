@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Xinyu Zhang",
+    "position": "Tutoring Chair",
+    "major": "Accountancy and Statistics",
+    "grade": "Senior",
+    "hometown": "Beijing, China",
+    "whyClaid": "To make more good friends and learn Chinese Culture!",
+    "hobbies": "Piano and board games!",
+    "funFact": "I'm allergic to cats but love to hold them",
+    "imageUrl": "/images/board/Xinyu.png",
+    "netid": "Xinyu Zhang"
+  },
+  {
+    "name": "Megan Huang",
+    "position": "Tutoring Branch",
+    "major": "Middle Grades Education",
+    "grade": "Junior",
+    "hometown": "Orland Park, IL",
+    "whyClaid": "I joined CLAID because I wanted to meet other people who share my love of Chinese culture. I also hope that through CLAID, I can deepen my own knowledge of Chinese culture.",
+    "hobbies": "Reading, Singing, Dancing",
+    "funFact": "I can speak Japanese",
+    "imageUrl": "/images/board/Megan.png",
+    "netid": "Megan Huang"
+  },
+  {
+    "name": "Jonathan Wen",
+    "position": "President + Tutoring Branch",
+    "major": "Electrical Engineering",
+    "grade": "Junior",
+    "hometown": "Holmdel, NJ",
+    "whyClaid": "I joined CLAID because I liked the the sense of community and I wanted to improve my Chinese, especially speaking (it’s still not good but that’s my fault)",
+    "hobbies": "In my free time I tend to exercise or watch anime",
+    "funFact": "I am ordained so I can legally perform a marriage ceremony",
+    "imageUrl": "/images/board/Jonathan.png",
+    "netid": "Jonathan Wen"
+  },
+  {
+    "name": "Elaine Wu",
+    "position": "Tutoring Branch",
+    "major": "IB",
+    "grade": "Junior",
+    "hometown": "Naperville, IL",
+    "whyClaid": "To meet people that are interested in Chinese culture and to promote it to more people",
+    "hobbies": "Running, gardening, traveling ",
+    "funFact": "I can mimic sheep sounds!",
+    "imageUrl": "/images/board/Elaine.png",
+    "netid": "Elaine Wu"
+  }
+]
