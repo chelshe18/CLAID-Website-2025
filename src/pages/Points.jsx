@@ -4,7 +4,7 @@ const CheckIn = () => {
   return (
     <div class="text-center pb-24">
       <h2 className="text-2xl font-bold mb-6 text-center">Check in</h2>
-      <form method="post" action="https://formspree.io/f/mqkonnbr">
+      <form>
         <div className="mb-4">
           <input
             type="email"
