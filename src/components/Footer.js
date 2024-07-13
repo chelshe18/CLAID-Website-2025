@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="footer text-center flex justify-center mt-8">
+    <footer className="footer text-center flex justify-center mt-8 bottom-0">
       <p class="text-white my-auto">Say on skibidi</p>
     </footer>
   );
