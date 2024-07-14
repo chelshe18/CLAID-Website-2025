@@ -6,6 +6,8 @@ import tutoring from "../components/tutoring.json";
 import performance from "../components/performance.json";
 import finance from "../components/finance.json";
 
+import { CSSTransition, TransitionGroup } from "react-transition-group";
+
 const BranchInfo = (branch) => {
   const branch_ = JSON.parse(JSON.stringify(branch)).branch;
   if (branch_ === "Events") {
@@ -204,10 +206,48 @@ const About = () => {
           setSelectedBranch={setSelectedBranch}
         />
         <div class="w-full py-4">
-          {selectedBranch.Events && <BranchInfo branch="Events" />}
-          {selectedBranch.Performance && <BranchInfo branch="Performance" />}
-          {selectedBranch.Finance && <BranchInfo branch="Finance" />}
-          {selectedBranch.Tutoring && <BranchInfo branch="Tutoring" />}
+          <TransitionGroup>
+            {selectedBranch.Events && (
+              <CSSTransition key="Events" timeout={300} classNames="fade-scale">
+                <div>
+                  <BranchInfo branch="Events" />
+                </div>
+              </CSSTransition>
+            )}
+            {selectedBranch.Performance && (
+              <CSSTransition
+                key="Performance"
+                timeout={300}
+                classNames="fade-scale"
+              >
+                <div>
+                  <BranchInfo branch="Performance" />
+                </div>
+              </CSSTransition>
+            )}
+            {selectedBranch.Finance && (
+              <CSSTransition
+                key="Finance"
+                timeout={300}
+                classNames="fade-scale"
+              >
+                <div>
+                  <BranchInfo branch="Finance" />
+                </div>
+              </CSSTransition>
+            )}
+            {selectedBranch.Tutoring && (
+              <CSSTransition
+                key="Tutoring"
+                timeout={300}
+                classNames="fade-scale"
+              >
+                <div>
+                  <BranchInfo branch="Tutoring" />
+                </div>
+              </CSSTransition>
+            )}
+          </TransitionGroup>
         </div>
         <ImageWithDropdown
           branchName="Finance"
