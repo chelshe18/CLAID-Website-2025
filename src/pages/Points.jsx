@@ -67,6 +67,28 @@ const CheckPoints = () => {
   );
 };
 
+const EventsAttended = () => {
+  return (
+    <div>
+      <ul class="multi-column-list">
+        <li>Event 1</li>
+        <li>Event 1</li>
+        <li>Event 1</li>
+        <li>Event 1</li>
+        <li>Event 1</li>
+        <li>Event 1</li>
+        <li>Event 1</li>
+        <li>Event 1</li>
+        <li>Event 1</li>
+        <li>Event 1</li>
+        <li>Event 1</li>
+        <li>Event 1</li>
+        <li>Event 1</li>
+        <li>Event 1</li>
+      </ul>
+    </div>
+  );
+};
 const PointsResults = () => {
   return (
     <div class="w-full flex bg-white p-8 rounded-lg shadow-md w-1/2 border">
@@ -76,6 +98,7 @@ const PointsResults = () => {
       </div>
       <div class="w-1/2">
         <h2 class="headers">Events attended:</h2>
+        <EventsAttended />
       </div>
     </div>
   );

@@ -34,7 +34,7 @@ function AnimatedRoutes() {
 
 function App() {
   return (
-    <div>
+    <div class="min-h-screen">
       <Router>
         <div>
           <NavBar />

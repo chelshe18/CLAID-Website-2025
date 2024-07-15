@@ -584,3 +584,17 @@ a {
   margin-left: -10px;
   margin-bottom: -10px;
 }
+
+.multi-column-list {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(150px, 1fr)
+  ); /* Adjust 150px to your desired column width */
+  gap: 1rem; /* Adjust the gap between items */
+  list-style-type: disc; /* Ensures bullet points are shown */
+  padding-left: 20px; /* Adjust for proper indentation */
+}
+.multi-column-list li {
+  list-style-position: inside; /* Ensures bullet points are within the content box */
+}
