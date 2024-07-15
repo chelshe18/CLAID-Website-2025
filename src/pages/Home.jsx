@@ -34,7 +34,7 @@ const Home = () => {
           <h2 class="headers">Upcoming Events</h2>
           <iframe
             src="https://calendar.google.com/calendar/embed?src=8efebd0299c5219ac7241d1733eb566c01872d330bfe41744f4647ecf810ba0f%40group.calendar.google.com&ctz=America%2FLos_Angeles"
-            class="border-0 w-[600px] h-[450px] mx-auto "
+            class="border-0 w-[800px] h-[600px] mx-auto "
             frameborder="0"
             scrolling="no"
           ></iframe>
