@@ -107,7 +107,7 @@ const Points = () => {
   return (
     <div>
       <CheckIn />
-      <PointsResults />
+      {/* <PointsResults /> */}
     </div>
   );
 };

@@ -34,13 +34,13 @@ function AnimatedRoutes() {
 
 function App() {
   return (
-    <div class="min-h-screen">
+    <div class="min-h-screen flex flex-col">
       <Router>
-        <div>
+        <div class="flex-grow">
           <NavBar />
           <AnimatedRoutes />
-          <Footer />
         </div>
+        <Footer />
       </Router>
     </div>
   );
