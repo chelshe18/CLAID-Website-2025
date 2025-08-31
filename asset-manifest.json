@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/CLAID-Website-2025/static/css/main.75d9edca.css",
+    "main.js": "/CLAID-Website-2025/static/js/main.76f68f7b.js",
+    "static/media/logo.png": "/CLAID-Website-2025/static/media/logo.b58d82348829e78e74bf.png",
+    "index.html": "/CLAID-Website-2025/index.html",
+    "main.75d9edca.css.map": "/CLAID-Website-2025/static/css/main.75d9edca.css.map",
+    "main.76f68f7b.js.map": "/CLAID-Website-2025/static/js/main.76f68f7b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.75d9edca.css",
+    "static/js/main.76f68f7b.js"
+  ]
+}
