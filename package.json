@@ -2,7 +2,7 @@
   "name": "claid-website-2025",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://chelshe18.github.io/CLAID-Website-2025",
+  "homepage": "https://claid.org",
   "babel": {
     "presets": [
       "@babel/preset-env",
