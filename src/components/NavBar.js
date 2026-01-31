@@ -14,15 +14,20 @@ const NavBar = () => {
         </Link>
       </li>
       <li className="nav">
+        <Link className="nav" to="/events">
+          Events
+        </Link>
+      </li>
+      <li className="nav">
         <Link className="nav" to="/connect">
           Connect
         </Link>
       </li>
-      <li className="nav">
+      {/* <li className="nav">
         <Link className="nav" to="/points">
           Points
         </Link>
-      </li>
+      </li> */}
     </ul>
   );
 };

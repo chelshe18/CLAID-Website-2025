@@ -23,7 +23,7 @@ ul.nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 4px;
 }
 li.nav {
   padding-left: 5px;
@@ -37,7 +37,9 @@ li.nav a.nav {
   text-decoration: none;
   font-size: 18px;
   font-family: Comfortaa;
-  transition: background-color 0.3s ease, color 0.1s ease; /* Add transition for smooth hover effect */
+  transition:
+    background-color 0.3s ease,
+    color 0.1s ease; /* Add transition for smooth hover effect */
 }
 li.nav a.nav:hover {
   background-color: rgb(211, 92, 92);
@@ -220,6 +222,9 @@ h3.headers {
   display: inline;
   padding: 0px;
   color: rgb(209, 76, 76);
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  max-width: 150px;
 }
 
 /*modal*/
@@ -458,7 +463,9 @@ a {
 .slide-enter-active {
   transform: translateX(0%);
   opacity: 1;
-  transition: transform 600ms ease-in-out, opacity 600ms ease-in-out;
+  transition:
+    transform 600ms ease-in-out,
+    opacity 600ms ease-in-out;
 }
 .slide-exit {
   transform: translateX(0%);
@@ -467,7 +474,9 @@ a {
 .slide-exit-active {
   transform: translateX(-100%);
   opacity: 0;
-  transition: transform 600ms ease-in-out, opacity 600ms ease-in-out;
+  transition:
+    transform 600ms ease-in-out,
+    opacity 600ms ease-in-out;
 }
 .slide-enter,
 .slide-exit {
@@ -482,7 +491,9 @@ a {
 .fade-scale-enter-active {
   transform: scale(1);
   opacity: 1;
-  transition: transform 300ms ease-in-out, opacity 300ms ease-in-out;
+  transition:
+    transform 300ms ease-in-out,
+    opacity 300ms ease-in-out;
 }
 .fade-scale-exit {
   transform: scale(1);
@@ -491,7 +502,9 @@ a {
 .fade-scale-exit-active {
   transform: scale(0.9);
   opacity: 0;
-  transition: transform 300ms ease-in-out, opacity 300ms ease-in-out;
+  transition:
+    transform 300ms ease-in-out,
+    opacity 300ms ease-in-out;
 }
 
 .chat {

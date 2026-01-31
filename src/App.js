@@ -8,6 +8,7 @@ import {
 import Connect from "../src/pages/Connect.jsx";
 import About from "../src/pages/About.jsx";
 import Points from "../src/pages/Points.jsx";
+import Events from "./pages/Events.jsx";
 import NavBar from "../src/components/NavBar.js";
 import Home from "../src/pages/Home.jsx";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -25,7 +26,8 @@ function AnimatedRoutes() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/connect" element={<Connect />} />
-          <Route path="/points" element={<Points />} />
+          <Route path="/events" element={<Events />} />
+          {/* <Route path="/points" element={<Points />} /> */}
         </Routes>
       </CSSTransition>
     </TransitionGroup>
@@ -40,7 +42,7 @@ function App() {
           <NavBar />
           <AnimatedRoutes />
         </div>
-        <Footer />
+        {/* <Footer /> */}
       </Router>
     </div>
   );
