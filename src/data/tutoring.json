@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Yan Heng Liu",
+    "position": "Branch Member",
+    "major": "Accounting + Data Science",
+    "grade": "Sophomore",
+    "hometown": "Chicago",
+    "hobbies": "gaming",
+    "funFact": "I only need 4-5 hours of sleep per day😭",
+    "imageUrl": "images/board/Yan.png",
+    "netid": ""
+  },
+  {
+    "name": "Robert Barthell",
+    "position": "Branch Member",
+    "major": "Aerospace Engineering",
+    "grade": "Junior",
+    "hometown": "Neenah, WI AND Mexico City",
+    "hobbies": "Language learning, Cycling, 3D Animation",
+    "funFact": "I speak 8 languages",
+    "imageUrl": "images/board/Robert.png",
+    "netid": ""
+  },
+  {
+    "name": "Zhouzi Wang (Kevin)",
+    "position": "Branch Member",
+    "major": "Mathematics",
+    "grade": "Freshman",
+    "hometown": "Hongkong, China",
+    "hobbies": "Biking",
+    "funFact": "Have fishes as pet",
+    "imageUrl": "images/board/Zhouzi.png",
+    "netid": ""
+  }
+]

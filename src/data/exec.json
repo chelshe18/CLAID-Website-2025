@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Angela Huang",
+    "position": "Treasurer",
+    "major": "Accountancy and Information Systems",
+    "grade": "Sophomore",
+    "hometown": "Chicago, IL",
+    "hobbies": "trying new foods, listening to music",
+    "funFact": "I really like Affy Tapples.",
+    "imageUrl": "images/board/Angela.png",
+    "netid": ""
+  },
+  {
+    "name": "Jerrick Chen",
+    "position": "President + Performance Chair",
+    "major": "Accountancy + Data Science",
+    "grade": "Sophomore",
+    "hometown": "Chicago, IL",
+    "hobbies": "Pickleball, Strategy Games, Thrifting",
+    "funFact": "My chess rating is 300 :(",
+    "imageUrl": "images/board/Jerrick.png",
+    "netid": ""
+  },
+  {
+    "name": "Chelsea He-Chen",
+    "position": "Events Chair",
+    "major": "Computer Science",
+    "grade": "Senior",
+    "hometown": "Chicago, IL",
+    "hobbies": "Taekwondo, collecting stationery, watching kdramas",
+    "funFact": "something",
+    "imageUrl": "images/board/Chelsea.png",
+    "netid": ""
+  }
+]

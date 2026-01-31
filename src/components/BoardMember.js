@@ -5,7 +5,6 @@ class BoardMember {
     this.major = "";
     this.grade = "";
     this.hometown = "";
-    this.whyClaid = "";
     this.hobbies = "";
     this.funFact = "";
     this.imageUrl = "";

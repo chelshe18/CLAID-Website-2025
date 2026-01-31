@@ -1,0 +1,145 @@
+[
+  {
+    "name": "Yan Heng Liu",
+    "position": "Tutoring Branch Member",
+    "major": "Accounting + Data Science",
+    "grade": "Sophomore",
+    "hometown": "Chicago",
+    "hobbies": "gaming",
+    "funFact": "I only need 4-5 hours of sleep per day😭",
+    "imageUrl": "images/board/Yan.png",
+    "netid": ""
+  },
+  {
+    "name": "Robert Barthell",
+    "position": "Tutoring Branch Member",
+    "major": "Aerospace Engineering",
+    "grade": "Junior",
+    "hometown": "Neenah, WI AND Mexico City",
+    "hobbies": "Language learning, Cycling, 3D Animation",
+    "funFact": "I speak 8 languages",
+    "imageUrl": "images/board/Robert.png",
+    "netid": ""
+  },
+  {
+    "name": "Katie Siu",
+    "position": "Events Fundraising Director",
+    "major": "Accountancy + DS",
+    "grade": "Sophomore",
+    "hometown": "Chicago, IL",
+    "hobbies": "Gardening, reading, shopping, listening to music",
+    "funFact": "My go-to comfort shows are Abbott Elementary and Modern Family.",
+    "imageUrl": "images/board/Katie.png",
+    "netid": ""
+  },
+  {
+    "name": "Angela Huang",
+    "position": "Treasurer",
+    "major": "Accountancy and Information Systems",
+    "grade": "Sophomore",
+    "hometown": "Chicago, IL",
+    "hobbies": "trying new foods, listening to music",
+    "funFact": "I really like Affy Tapples.",
+    "imageUrl": "images/board/Angela.png",
+    "netid": ""
+  },
+  {
+    "name": "Yingen Mei",
+    "position": "Performance Public Relations Director",
+    "major": "Financial Planning",
+    "grade": "Sophomore",
+    "hometown": "Chicago, IL",
+    "hobbies": "Hanging out with friends and family, watching C-dramas, listening to music, exploring and trying out cafes or food places, badminton",
+    "funFact": "I enjoy watching traveling vlog/food videos.",
+    "imageUrl": "images/board/Yingen.png",
+    "netid": ""
+  },
+  {
+    "name": "Joyce Chen",
+    "position": "Performance Finance Director",
+    "major": "Accountancy + Data Science",
+    "grade": "Sophomore",
+    "hometown": "Chicago, IL",
+    "hobbies": "Dance, photography, badminton",
+    "funFact": "I was chased by a chicken when I was 3.",
+    "imageUrl": "images/board/Joyce.png",
+    "netid": ""
+  },
+  {
+    "name": "Zhouzi Wang (Kevin)",
+    "position": "Tutoring Branch Member",
+    "major": "Mathematics",
+    "grade": "Freshman",
+    "hometown": "Hongkong, China",
+    "hobbies": "Biking",
+    "funFact": "Have fishes as pet",
+    "imageUrl": "images/board/Zhouzi.png",
+    "netid": ""
+  },
+  {
+    "name": "Jerrick Chen",
+    "position": "President + Performance Chair",
+    "major": "Accountancy + Data Science",
+    "grade": "Sophomore",
+    "hometown": "Chicago, IL",
+    "hobbies": "Pickleball, Strategy Games, Thrifting",
+    "funFact": "My chess rating is 300 :(",
+    "imageUrl": "images/board/Jerrick.png",
+    "netid": ""
+  },
+  {
+    "name": "Emilia Zheng",
+    "position": "Performance Outreach Director",
+    "major": "Psychology",
+    "grade": "Junior",
+    "hometown": "Fremont/Chicago",
+    "hobbies": "sleeping or reading!",
+    "funFact": "if i’m on track i can graduate with my masters by 22!",
+    "imageUrl": "images/board/Emilia.png",
+    "netid": ""
+  },
+  {
+    "name": "Sophia Au",
+    "position": "Events Public Relations Director",
+    "major": "Undeclared",
+    "grade": "Freshman",
+    "hometown": "Chicago, IL",
+    "hobbies": "Dancing, traveling, journaling, arts and crafts",
+    "funFact": "I have 5+ cats and a dog.",
+    "imageUrl": "images/board/Sophia.png",
+    "netid": ""
+  },
+  {
+    "name": "Tiffany Zheng",
+    "position": "Events Operations Director",
+    "major": "Biology",
+    "grade": "Freshman",
+    "hometown": "Chicago, IL",
+    "hobbies": "badminton, dancing, watching cdramas",
+    "funFact": "When I visited China last summer, I got to see Mao Zedong's embalmed body in person.",
+    "imageUrl": "images/board/Tiffany.png",
+    "netid": ""
+  },
+  {
+    "name": "Yinglin Li",
+    "position": "Performance Membership Director",
+    "major": "Undeclared",
+    "grade": "Freshman",
+    "hometown": "Chicago, IL",
+    "hobbies": "baking, video games, 8-ball",
+    "funFact": "i accidentally spent $60 on one sea urchin in japan",
+    "imageUrl": "images/board/Yinglin.png",
+    "netid": ""
+  },
+  {
+    "name": "Chelsea He-Chen",
+    "position": "Events Chair",
+    "major": "Computer Science",
+    "grade": "Senior",
+    "hometown": "Chicago, IL",
+    "hobbies": "Taekwondo, collecting stationery, watching kdramas",
+    "funFact": "something",
+    "imageUrl": "images/board/Chelsea.png",
+    "netid": ""
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Katie Siu",
+    "position": "Fundraising Director",
+    "major": "Accountancy + DS",
+    "grade": "Sophomore",
+    "hometown": "Chicago, IL",
+    "hobbies": "Gardening, reading, shopping, listening to music",
+    "funFact": "My go-to comfort shows are Abbott Elementary and Modern Family.",
+    "imageUrl": "images/board/Katie.png",
+    "netid": ""
+  },
+  {
+    "name": "Sophia Au",
+    "position": "Public Relations Director",
+    "major": "Undeclared",
+    "grade": "Freshman",
+    "hometown": "Chicago, IL",
+    "hobbies": "Dancing, traveling, journaling, arts and crafts",
+    "funFact": "I have 5+ cats and a dog.",
+    "imageUrl": "images/board/Sophia.png",
+    "netid": ""
+  },
+  {
+    "name": "Tiffany Zheng",
+    "position": "Operations Director",
+    "major": "Biology",
+    "grade": "Freshman",
+    "hometown": "Chicago, IL",
+    "hobbies": "badminton, dancing, watching cdramas",
+    "funFact": "When I visited China last summer, I got to see Mao Zedong's embalmed body in person.",
+    "imageUrl": "images/board/Tiffany.png",
+    "netid": ""
+  },
+  {
+    "name": "Chelsea He-Chen",
+    "position": "Chair",
+    "major": "Computer Science",
+    "grade": "Senior",
+    "hometown": "Chicago, IL",
+    "hobbies": "Taekwondo, collecting stationery, watching kdramas",
+    "funFact": "something",
+    "imageUrl": "images/board/Chelsea.png",
+    "netid": ""
+  }
+]

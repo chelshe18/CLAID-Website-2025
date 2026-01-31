@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Yingen Mei",
+    "position": "Public Relations Director",
+    "major": "Financial Planning",
+    "grade": "Sophomore",
+    "hometown": "Chicago, IL",
+    "hobbies": "Hanging out with friends and family, watching C-dramas, listening to music, exploring and trying out cafes or food places, badminton",
+    "funFact": "I enjoy watching traveling vlog/food videos.",
+    "imageUrl": "images/board/Yingen.png",
+    "netid": ""
+  },
+  {
+    "name": "Joyce Chen",
+    "position": "Finance Director",
+    "major": "Accountancy + Data Science",
+    "grade": "Sophomore",
+    "hometown": "Chicago, IL",
+    "hobbies": "Dance, photography, badminton",
+    "funFact": "I was chased by a chicken when I was 3.",
+    "imageUrl": "images/board/Joyce.png",
+    "netid": ""
+  },
+  {
+    "name": "Jerrick Chen",
+    "position": "President + Performance Chair",
+    "major": "Accountancy + Data Science",
+    "grade": "Sophomore",
+    "hometown": "Chicago, IL",
+    "hobbies": "Pickleball, Strategy Games, Thrifting",
+    "funFact": "My chess rating is 300 :(",
+    "imageUrl": "images/board/Jerrick.png",
+    "netid": ""
+  },
+  {
+    "name": "Emilia Zheng",
+    "position": "Outreach Director",
+    "major": "Psychology",
+    "grade": "Junior",
+    "hometown": "Fremont/Chicago",
+    "hobbies": "sleeping or reading!",
+    "funFact": "if i’m on track i can graduate with my masters by 22!",
+    "imageUrl": "images/board/Emilia.png",
+    "netid": ""
+  },
+  {
+    "name": "Yinglin Li",
+    "position": "Membership Director",
+    "major": "Undeclared",
+    "grade": "Freshman",
+    "hometown": "Chicago, IL",
+    "hobbies": "baking, video games, 8-ball",
+    "funFact": "i accidentally spent $60 on one sea urchin in japan",
+    "imageUrl": "images/board/Yinglin.png",
+    "netid": ""
+  }
+]

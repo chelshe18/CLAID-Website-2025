@@ -1,5 +1,5 @@
-const fs = require("fs");
-const BoardMember = require("./BoardMember.js");
+import fs from "fs";
+import BoardMember from "../components/BoardMember.js";
 
 function parse(filePath) {
   const data = fs.readFileSync(filePath, "utf8");
@@ -23,12 +23,10 @@ function parse(filePath) {
     const major = lines[index++].trim();
     const grade = lines[index++].trim();
     const hometown = lines[index++].trim();
-    const whyClaid = lines[index++].trim();
     const hobbies = lines[index++].trim();
     const funFact = lines[index++].trim();
     const firstName = name.split(" ")[0];
     const imageUrl = `images/board/${firstName}.png`;
-    const netid = name;
 
     const boardMember = new BoardMember();
     boardMember.populate({
@@ -37,11 +35,9 @@ function parse(filePath) {
       major,
       grade,
       hometown,
-      whyClaid,
       hobbies,
       funFact,
       imageUrl,
-      netid,
     });
     boardMembers.push(boardMember);
 
@@ -49,6 +45,7 @@ function parse(filePath) {
   }
   return boardMembers;
 }
-const boardMembers = parse("board.csv");
+
+const boardMembers = parse("../data/board.csv");
 const boardData = JSON.stringify(boardMembers, null, 2);
-fs.writeFileSync("board.json", boardData, "utf8");
+fs.writeFileSync("../data/board.json", boardData, "utf8");
