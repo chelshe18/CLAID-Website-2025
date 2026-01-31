@@ -53,55 +53,124 @@ const Home = () => {
       </section>
 
       {/* ================= ABOUT / CHAT ================= */}
-      <section className="py-24 px-6">
-        <div className="max-w-3xl mx-auto">
-          <div className="text-center mb-10">
-            <h2 className="headers text-3xl md:text-4xl font-bold">
-              What's CLAID all about?
-            </h2>
-            <div className="h-1 w-20 bg-[#D66A6A] mx-auto mt-4 rounded-full" />
-          </div>
+      <section className="py-24 bg-white">
+        <div className="text-center mb-12">
+          <h2 className="headers text-3xl md:text-4xl font-bold">
+            What's CLAID all about?
+          </h2>
+          <div className="h-1 w-20 bg-[#D66A6A] mx-auto mt-4 rounded-full" />
+          <p className="mt-6 text-gray-600">
+            Explore our three branches — click a card to learn more.
+          </p>
+        </div>
 
-          <div className="chat shadow-2xl rounded-3xl p-8 bg-white border border-gray-50 space-y-4">
-            <div data-time="16:35" className="msg sent">
-              What even is CLAID?
-            </div>
+        <div className="max-w-6xl mx-auto px-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 place-items-center">
+            <Link
+              to="/events"
+              className="group w-full max-w-sm rounded-3xl overflow-hidden
+             bg-white border border-gray-100
+             shadow-md hover:shadow-2xl
+             transition-all duration-300 hover:-translate-y-2"
+            >
+              <div className="relative h-48 overflow-hidden">
+                <img
+                  src="/images/events/lantern2.jpg"
+                  alt="Events"
+                  className="w-full h-full object-cover
+                 transition-transform duration-500
+                 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-black/10 group-hover:bg-black/20 transition" />
+              </div>
 
-            <div data-time="16:36" className="msg rcvd">
-              We're a Chinese student org known for our dance showcase, food
-              events, and cultural celebrations!
-            </div>
+              <div className="p-6 text-center">
+                <h3 className="text-2xl font-semibold mb-2 text-gray-900">
+                  Events
+                </h3>
 
-            <div data-time="16:37" className="msg sent">
-              Ok, but how is that different from every other org?
-            </div>
+                <p className="text-sm text-gray-600 mb-5 leading-relaxed">
+                  Blah blah blah blah blah blah blah
+                </p>
 
-            <div data-time="16:37" className="msg rcvd">
-              You'll see at our events that we're REALLY focused on quality and
-              genuine connections with attendees.
-            </div>
+                <span
+                  className="inline-block text-sm font-semibold text-[#D66A6A]
+                     group-hover:tracking-wide transition-all"
+                >
+                  Learn more →
+                </span>
+              </div>
+            </Link>
+            <Link
+              to="/performance"
+              className="group w-full max-w-sm rounded-3xl overflow-hidden
+             bg-white border border-gray-100
+             shadow-md hover:shadow-2xl
+             transition-all duration-300 hover:-translate-y-2"
+            >
+              <div className="relative h-48 overflow-hidden">
+                <img
+                  src="/images/performance/show2.png"
+                  alt="Performance"
+                  className="w-full h-full object-cover
+                 transition-transform duration-500
+                 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-black/10 group-hover:bg-black/20 transition" />
+              </div>
 
-            <div data-time="16:38" className="msg rcvd">
-              We're really quality of events &gt; quantity :)
-            </div>
+              <div className="p-6 text-center">
+                <h3 className="text-2xl font-semibold mb-2 text-gray-900">
+                  Performance
+                </h3>
 
-            <div data-time="16:38" className="msg sent">
-              Wow! I've always been hesitant to participate since I'm not
-              Chinese. Is that okay? :')
-            </div>
+                <p className="text-sm text-gray-600 mb-5 leading-relaxed">
+                  Blah blah blah blah blah blah blah blah blah blah blah
+                </p>
 
-            <div data-time="16:38" className="msg rcvd">
-              Of course! Our events are absolutely for everybody and are
-              designed for that purpose! Everybody learns together
-            </div>
+                <span
+                  className="inline-block text-sm font-semibold text-[#D66A6A]
+                     group-hover:tracking-wide transition-all"
+                >
+                  Learn more →
+                </span>
+              </div>
+            </Link>
+            <Link
+              to="/tutoring"
+              className="group w-full max-w-sm rounded-3xl overflow-hidden
+             bg-white border border-gray-100
+             shadow-md hover:shadow-2xl
+             transition-all duration-300 hover:-translate-y-2"
+            >
+              <div className="relative h-48 overflow-hidden">
+                <img
+                  src="/images/tutoring/chinese corner.png"
+                  alt="Tutoring"
+                  className="w-full h-full object-cover
+                 transition-transform duration-500
+                 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-black/10 group-hover:bg-black/20 transition" />
+              </div>
 
-            <div data-time="16:40" className="msg sent">
-              Great! How can I learn more? 😍
-            </div>
+              <div className="p-6 text-center">
+                <h3 className="text-2xl font-semibold mb-2 text-gray-900">
+                  Tutoring
+                </h3>
 
-            <div data-time="16:41" className="msg rcvd">
-              You're on the right website 😉
-            </div>
+                <p className="text-sm text-gray-600 mb-5 leading-relaxed">
+                  Blah blah blah blah blah blah blah blah blah blah blah
+                </p>
+
+                <span
+                  className="inline-block text-sm font-semibold text-[#D66A6A]
+                     group-hover:tracking-wide transition-all"
+                >
+                  Learn more →
+                </span>
+              </div>
+            </Link>
           </div>
         </div>
       </section>

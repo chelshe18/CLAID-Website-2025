@@ -140,7 +140,7 @@ p.maintext {
 .container {
   text-align: center;
 }
-.block {
+/* .block {
   margin-left: 220px;
   display: inline-block;
   width: 400px;
@@ -150,7 +150,7 @@ p.maintext {
   border-color: rgb(240, 238, 238);
   transition: 0.2s;
   cursor: pointer;
-}
+} */
 .block:hover {
   transform: scale(1.1);
 }
