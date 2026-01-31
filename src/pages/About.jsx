@@ -107,19 +107,19 @@ const About = () => {
       />
 
       <BranchSection
-        title="Performance"
+        title="Performance Branch"
         // description="We plan our annual CLAID Chinese New Year Performance full of different shows, acts, and talents from all across campus! If you're interested in dancing, be sure to participate!"
         memberList={performance}
       />
 
       <BranchSection
-        title="Tutoring"
+        title="Tutoring Branch"
         // description="We're known for our weekly Chinese conversation corners and organizing our one-on-one tutoring! Come find us in the Illini Union basement and converse with our tutors and learners of all skill levels!"
         memberList={tutoring}
       />
 
       <BranchSection
-        title="Events"
+        title="Events Branch"
         // description="We're in charge of planning all social, cultural, and team bonding events! Some of our past events include the Mid-Autumn festival, food making competitions, game nights, and more!"
         memberList={events}
       />
