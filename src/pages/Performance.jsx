@@ -54,47 +54,50 @@ const Performance = () => {
                 Auditorium
               </p>
             </div>
+            <p className="mt-4 text-gray-700">[Insert show trailer]</p>
           </div>
 
           {/* Performance Carousel */}
-          <div className="mb-16">
-            <h3 className="text-2xl font-semibold mb-6 text-center">Gallery</h3>
-            <div className="relative flex items-center justify-center bg-black h-96 overflow-hidden">
+          <div className="mb-16 px-4">
+            <h3 className="text-2xl font-semibold mb-6 text-center">
+              Photo Gallery
+            </h3>
+            <div className="relative flex items-center justify-center bg-gradient-to-br from-gray-900 via-black to-gray-800 h-96 overflow-hidden rounded-3xl shadow-2xl">
               <button
                 onClick={prevImage}
-                className="absolute left-0 z-10 bg-gray-800 hover:bg-red-600 text-white rounded-full p-3 ml-2 transition-all duration-300 hover:scale-110 active:scale-95"
+                className="absolute left-0 z-10 bg-gradient-to-br from-red-600 to-red-700 hover:from-red-500 hover:to-red-600 text-white rounded-full p-4 ml-4 transition-all duration-300 hover:scale-120 active:scale-95 shadow-lg hover:shadow-red-600/50 backdrop-blur-md"
                 aria-label="Previous image"
               >
                 ❮
               </button>
 
-              <div className="w-full max-w-3xl h-full flex items-center justify-center">
+              <div className="w-full max-w-4xl h-full flex items-center justify-center px-20">
                 <img
                   key={currentImageIndex}
                   src={images[currentImageIndex]}
                   alt="Performance gallery"
-                  className="max-w-full max-h-full object-contain rounded-2xl shadow-lg carousel-fade-in"
+                  className="max-w-full max-h-full object-contain rounded-2xl shadow-2xl carousel-fade-in"
                 />
               </div>
 
               <button
                 onClick={nextImage}
-                className="absolute right-0 z-10 bg-gray-800 hover:bg-red-600 text-white rounded-full p-3 mr-2 transition-all duration-300 hover:scale-110 active:scale-95"
+                className="absolute right-0 z-10 bg-gradient-to-br from-red-600 to-red-700 hover:from-red-500 hover:to-red-600 text-white rounded-full p-4 mr-4 transition-all duration-300 hover:scale-120 active:scale-95 shadow-lg hover:shadow-red-600/50 backdrop-blur-md"
                 aria-label="Next image"
               >
                 ❯
               </button>
             </div>
 
-            <div className="flex justify-center gap-2 mt-6">
+            <div className="flex justify-center gap-3 mt-8">
               {images.map((_, index) => (
                 <button
                   key={index}
                   onClick={() => setCurrentImageIndex(index)}
-                  className={`h-2 rounded-full transition-all duration-300 cursor-pointer hover:bg-gray-600 ${
+                  className={`rounded-full transition-all duration-300 cursor-pointer backdrop-blur-sm ${
                     index === currentImageIndex
-                      ? "bg-gray-800 w-8"
-                      : "bg-gray-300 w-2"
+                      ? "bg-gradient-to-r from-red-600 to-red-500 w-10 h-3 shadow-lg shadow-red-600/50"
+                      : "bg-gray-500/40 hover:bg-gray-500/60 w-3 h-3"
                   }`}
                   aria-label={`Go to image ${index + 1}`}
                 />
