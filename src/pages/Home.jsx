@@ -1,84 +1,111 @@
 import React from "react";
-import logo from "../logo.png";
 import { Link } from "react-router-dom";
+import logo from "../logo.png";
+
 const Home = () => {
   return (
-    <div>
-      <div style={{ display: "flex" }}>
-        <div style={{ float: "left" }}>
-          <h1 class="maintext">CLAID @ UIUC</h1>
-          <p class="maintext">
-            Building connections between students who share a passion for
-            Chinese language and culture since 2015
-          </p>
-          <p class="maintext">
-            We welcome everybody of all majors, cultures, and interests!
-          </p>
-          <br></br>
-          <div class="contactbox">
-            <p class="contacttext">
-              <b>Email:</b> claiduiuc@gmail.com
-              <Link to="/connect" className="contactbutton">
-                CONTACT
-              </Link>
-            </p>
+    <main className="bg-white">
+      {/* ================= HERO BANNER ================= */}
+      <section className="bg-gradient-to-b from-[#FFF5F5] to-white">
+        <div className="container mx-auto px-6 min-h-[70vh] flex items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center w-full">
+            {/* Text */}
+            <div className="text-center lg:text-left">
+              <h1 className="maintext text-5xl md:text-6xl xl:text-7xl font-extrabold tracking-tight mb-6">
+                CLAID @ UIUC
+              </h1>
+
+              <p className="maintext text-xl md:text-2xl leading-relaxed opacity-90 max-w-xl mx-auto lg:mx-0 mb-4">
+                Building connections between students who share a passion for
+                Chinese language and culture since 2015.
+              </p>
+
+              <p className="maintext text-lg opacity-80 mb-10">
+                We welcome everybody of all majors, cultures, and interests!
+              </p>
+
+              {/* Contact */}
+              <div className="inline-flex flex-col sm:flex-row items-center gap-4 px-6 py-4 bg-white border border-gray-100 rounded-2xl shadow-md">
+                <span className="contacttext text-base">
+                  <span className="font-semibold">Email:</span>{" "}
+                  <span className="opacity-75">claiduiuc@gmail.com</span>
+                </span>
+
+                <Link
+                  to="/connect"
+                  className="no-underline px-7 py-3 bg-[#D66A6A] text-white font-semibold rounded-xl shadow hover:brightness-110 active:scale-95 transition"
+                >
+                  Contact Us
+                </Link>
+              </div>
+            </div>
+
+            {/* Logo */}
+            <div className="flex justify-center lg:justify-end">
+              <img
+                src={logo}
+                alt="CLAID Logo"
+                className="w-full max-w-[340px] xl:max-w-[420px] h-auto drop-shadow-xl"
+              />
+            </div>
           </div>
         </div>
+      </section>
 
-        <div style={{ float: "right" }}>
-          <img src={logo} class="mainimg" alt="claid logo" />
-        </div>
-      </div>
-      <div class="w-full pl-4 flex">
-        <div class="w-1/2 text-center">
-          <h2 class="headers">Upcoming Events</h2>
-          <iframe
-            src="https://calendar.google.com/calendar/embed?src=8efebd0299c5219ac7241d1733eb566c01872d330bfe41744f4647ecf810ba0f%40group.calendar.google.com&ctz=America%2FLos_Angeles"
-            class="border-0 w-[800px] h-[600px] mx-auto "
-            frameborder="0"
-            scrolling="no"
-          ></iframe>
-        </div>
-        <div class="w-1/2 pr-4">
-          <div class="chat">
-            <div data-time="16:35" class="msg sent pb-8">
+      {/* ================= ABOUT / CHAT ================= */}
+      <section className="py-24 px-6">
+        <div className="max-w-3xl mx-auto">
+          <div className="text-center mb-10">
+            <h2 className="headers text-3xl md:text-4xl font-bold">
+              What's CLAID all about?
+            </h2>
+            <div className="h-1 w-20 bg-[#D66A6A] mx-auto mt-4 rounded-full" />
+          </div>
+
+          <div className="chat shadow-2xl rounded-3xl p-8 bg-white border border-gray-50 space-y-4">
+            <div data-time="16:35" className="msg sent">
               What even is CLAID?
             </div>
-            <div data-time="16:36" class="msg rcvd">
+
+            <div data-time="16:36" className="msg rcvd">
               We're a Chinese student org known for our dance showcase, food
               events, and cultural celebrations!
             </div>
-            <div data-time="16:37" class="msg sent pb-8">
+
+            <div data-time="16:37" className="msg sent">
               Ok, but how is that different from every other org?
             </div>
-            <div data-time="16:37" class="msg rcvd">
+
+            <div data-time="16:37" className="msg rcvd">
               You'll see at our events that we're REALLY focused on quality and
-              our genuine connections with attendees
+              genuine connections with attendees.
             </div>
-            <div data-time="16:38" class="msg rcvd">
-              We're really quality of events > quantity :){" "}
+
+            <div data-time="16:38" className="msg rcvd">
+              We're really quality of events &gt; quantity :)
             </div>
-            <div data-time="16:38" class="msg sent">
+
+            <div data-time="16:38" className="msg sent">
               Wow! I've always been hesitant to participate since I'm not
-              Chinese. Is that okay?
+              Chinese. Is that okay? :')
             </div>
-            <div data-time="16:38" class="msg sent">
-              :')
-            </div>
-            <div data-time="16:38" class="msg rcvd">
+
+            <div data-time="16:38" className="msg rcvd">
               Of course! Our events are absolutely for everybody and are
               designed for that purpose! Everybody learns together
             </div>
-            <div data-time="16:40" class="msg sent">
+
+            <div data-time="16:40" className="msg sent">
               Great! How can I learn more? 😍
             </div>
-            <div data-time="16:41" class="msg rcvd">
+
+            <div data-time="16:41" className="msg rcvd">
               You're on the right website 😉
             </div>
           </div>
         </div>
-      </div>
-    </div>
+      </section>
+    </main>
   );
 };
 
