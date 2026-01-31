@@ -46,7 +46,7 @@ function App() {
           <NavBar />
           <AnimatedRoutes />
         </div>
-        {/* <Footer /> */}
+        <Footer />
       </Router>
     </div>
   );

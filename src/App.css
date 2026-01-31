@@ -45,11 +45,11 @@ li.nav a.nav:hover {
   background-color: rgb(211, 92, 92);
   color: white;
 }
-/* footer */
-
+/* footer
+*/
 footer {
-  background-color: rgb(209, 111, 111);
-  height: 50px;
+  background-color: transparent;
+  height: auto;
 }
 .ftext {
   color: white;
