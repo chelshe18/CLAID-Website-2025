@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "../styles/carousel.css";
 
 const Performance = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -58,46 +57,58 @@ const Performance = () => {
           </div>
 
           {/* Performance Carousel */}
-          <div className="mb-16 px-4">
-            <h3 className="text-2xl font-semibold mb-6 text-center">
+          <div className="mb-20">
+            <h3 className="text-2xl font-semibold mb-8 text-center">
               Photo Gallery
             </h3>
-            <div className="relative flex items-center justify-center bg-gradient-to-br from-gray-900 via-black to-gray-800 h-96 overflow-hidden rounded-3xl shadow-2xl">
+
+            <div className="relative w-full max-w-5xl mx-auto overflow-hidden rounded-xl">
+              {/* Image */}
+              <img
+                src={images[currentImageIndex]}
+                alt="Performance gallery"
+                className="w-full h-[450px] object-cover transition-opacity duration-500"
+              />
+
+              {/* Left Arrow */}
               <button
                 onClick={prevImage}
-                className="absolute left-0 z-10 bg-gradient-to-br from-red-600 to-red-700 hover:from-red-500 hover:to-red-600 text-white rounded-full p-4 ml-4 transition-all duration-300 hover:scale-120 active:scale-95 shadow-lg hover:shadow-red-600/50 backdrop-blur-md"
+                className="absolute left-4 top-1/2 -translate-y-1/2 
+                 bg-white/70 hover:bg-white 
+                 text-gray-800 
+                 w-10 h-10 rounded-full 
+                 flex items-center justify-center 
+                 shadow-sm transition"
                 aria-label="Previous image"
               >
-                ❮
+                ‹
               </button>
 
-              <div className="w-full max-w-4xl h-full flex items-center justify-center px-20">
-                <img
-                  key={currentImageIndex}
-                  src={images[currentImageIndex]}
-                  alt="Performance gallery"
-                  className="max-w-full max-h-full object-contain rounded-2xl shadow-2xl carousel-fade-in"
-                />
-              </div>
-
+              {/* Right Arrow */}
               <button
                 onClick={nextImage}
-                className="absolute right-0 z-10 bg-gradient-to-br from-red-600 to-red-700 hover:from-red-500 hover:to-red-600 text-white rounded-full p-4 mr-4 transition-all duration-300 hover:scale-120 active:scale-95 shadow-lg hover:shadow-red-600/50 backdrop-blur-md"
+                className="absolute right-4 top-1/2 -translate-y-1/2 
+                 bg-white/70 hover:bg-white 
+                 text-gray-800 
+                 w-10 h-10 rounded-full 
+                 flex items-center justify-center 
+                 shadow-sm transition"
                 aria-label="Next image"
               >
-                ❯
+                ›
               </button>
             </div>
 
-            <div className="flex justify-center gap-3 mt-8">
+            {/* Dots */}
+            <div className="flex justify-center gap-2 mt-6">
               {images.map((_, index) => (
                 <button
                   key={index}
                   onClick={() => setCurrentImageIndex(index)}
-                  className={`rounded-full transition-all duration-300 cursor-pointer backdrop-blur-sm ${
+                  className={`h-2.5 rounded-full transition-all ${
                     index === currentImageIndex
-                      ? "bg-gradient-to-r from-red-600 to-red-500 w-10 h-3 shadow-lg shadow-red-600/50"
-                      : "bg-gray-500/40 hover:bg-gray-500/60 w-3 h-3"
+                      ? "w-6 bg-gray-800"
+                      : "w-2.5 bg-gray-400"
                   }`}
                   aria-label={`Go to image ${index + 1}`}
                 />
