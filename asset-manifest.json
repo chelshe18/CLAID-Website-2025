@@ -1,14 +1,45 @@
 {
   "files": {
-    "main.css": "/static/css/main.75d9edca.css",
-    "main.js": "/static/js/main.3810dd14.js",
-    "static/media/logo.png": "/static/media/logo.b58d82348829e78e74bf.png",
+    "main.css": "/static/css/main.5258fadb.css",
+    "main.js": "/static/js/main.e3f1cb91.js",
+    "static/media/CLAID 2026 Show Trailer.mp4": "/static/media/CLAID 2026 Show Trailer.c767fe8ac09b5f94f4aa.mp4",
+    "static/media/DSC09950.jpg": "/static/media/DSC09950.5ed32f746d171d90d22a.jpg",
+    "static/media/Screenshot 2026-02-04 at 1.56.44 AM.png": "/static/media/Screenshot 2026-02-04 at 1.56.44 AM.f432657f751c2a528cde.png",
+    "static/media/Screenshot 2026-02-04 at 1.56.09 AM.png": "/static/media/Screenshot 2026-02-04 at 1.56.09 AM.c1d3015f9b134538c843.png",
+    "static/media/Screenshot 2026-02-04 at 1.50.38 AM.png": "/static/media/Screenshot 2026-02-04 at 1.50.38 AM.712f7bb25726e8e78412.png",
+    "static/media/5G5A9459.jpg": "/static/media/5G5A9459.6091f60c872430cc9b96.jpg",
+    "static/media/Screenshot 2026-02-04 at 1.54.51 AM.png": "/static/media/Screenshot 2026-02-04 at 1.54.51 AM.858f6eb15381ab5276b1.png",
+    "static/media/Screenshot 2026-02-04 at 1.55.17 AM.png": "/static/media/Screenshot 2026-02-04 at 1.55.17 AM.2e2fb9ec6d5711498bca.png",
+    "static/media/IMG_5812.jpg": "/static/media/IMG_5812.eda1c1c0f40659f145dc.jpg",
+    "static/media/5G5A9587.jpg": "/static/media/5G5A9587.95b2f6d8fb5dbf67f804.jpg",
+    "static/media/Screenshot 2026-02-04 at 1.57.21 AM.png": "/static/media/Screenshot 2026-02-04 at 1.57.21 AM.e095668d1c9820b2244b.png",
+    "static/media/Screenshot 2026-02-04 at 1.57.43 AM.png": "/static/media/Screenshot 2026-02-04 at 1.57.43 AM.5c8e9c5617d9a10d6c01.png",
+    "static/media/5G5A8912.jpg": "/static/media/5G5A8912.9a391f0133eea1e543a2.jpg",
+    "static/media/IMG_6720.jpg": "/static/media/IMG_6720.338e89069345ce94c7c0.jpg",
+    "static/media/IMG_6860.jpg": "/static/media/IMG_6860.7f0d51b39eda899c08ee.jpg",
+    "static/media/5G5A9183.jpg": "/static/media/5G5A9183.f443f6ebb1ccf6716f44.jpg",
+    "static/media/IMG_2116.jpg": "/static/media/IMG_2116.6576607814f1df58c1fb.jpg",
+    "static/media/IMG_2147.jpg": "/static/media/IMG_2147.85420498b0703f2a2f6e.jpg",
+    "static/media/5G5A9835.jpg": "/static/media/5G5A9835.eed775157d073f58f9ca.jpg",
+    "static/media/20251206_171209.jpg": "/static/media/20251206_171209.58ac60e0cc6615946c43.jpg",
+    "static/media/IMG_2114.jpg": "/static/media/IMG_2114.a2b85c3373c632d9f653.jpg",
+    "static/media/IMG_2111.jpg": "/static/media/IMG_2111.776cbe4b54cb7e299937.jpg",
+    "static/media/IMG_2121.jpg": "/static/media/IMG_2121.9d32f968c3a1eaf6d214.jpg",
+    "static/media/boba.png": "/static/media/boba.fcfff3900faf4d4c14a3.png",
+    "static/media/PXL_20230204_004502286.jpg": "/static/media/PXL_20230204_004502286.9b36535faf5545b531d7.jpg",
+    "static/media/mahjong.png": "/static/media/mahjong.279ad5463b0d0a86c7e9.png",
+    "static/media/20251206_190431.jpg": "/static/media/20251206_190431.aa26f28736877d8e44ed.jpg",
+    "static/media/chinese corner.png": "/static/media/chinese corner.060cb6dfe5573a9f7f62.png",
+    "static/media/show2.png": "/static/media/show2.c06fa2c320c913a8a5a3.png",
+    "static/media/cpop.png": "/static/media/cpop.e03f5341464bec6bd5bd.png",
+    "static/media/wushu.png": "/static/media/wushu.c7129640b276a2c4a2ac.png",
+    "static/media/logo.png": "/static/media/logo.8402b2568cf69784bbc4.png",
     "index.html": "/index.html",
-    "main.75d9edca.css.map": "/static/css/main.75d9edca.css.map",
-    "main.3810dd14.js.map": "/static/js/main.3810dd14.js.map"
+    "main.5258fadb.css.map": "/static/css/main.5258fadb.css.map",
+    "main.e3f1cb91.js.map": "/static/js/main.e3f1cb91.js.map"
   },
   "entrypoints": [
-    "static/css/main.75d9edca.css",
-    "static/js/main.3810dd14.js"
+    "static/css/main.5258fadb.css",
+    "static/js/main.e3f1cb91.js"
   ]
 }
