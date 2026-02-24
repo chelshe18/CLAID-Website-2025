@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import showTrailer from "../assets/performance/CLAID 2026 Show Trailer.mp4";
 
 const Performance = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -55,7 +56,15 @@ const Performance = () => {
                 Auditorium
               </p>
             </div>
-            <p className="mt-4 text-gray-700">[Insert show trailer]</p>
+            <div className="mt-6">
+              <video
+                className="w-full rounded-xl shadow"
+                controls
+                preload="metadata"
+              >
+                <source src={showTrailer} type="video/mp4" />
+              </video>
+            </div>
           </div>
 
           {/* Performance Carousel */}
