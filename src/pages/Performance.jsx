@@ -3,11 +3,13 @@ import React, { useState } from "react";
 const Performance = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
-  const images = [
-    "/images/performance/cpop.png",
-    "/images/performance/show2.png",
-    "/images/performance/wushu.png",
-  ];
+  function importAll(r) {
+    return r.keys().map(r);
+  }
+
+  const images = importAll(
+    require.context("../assets/performance", false, /\.(png|jpe?g|webp)$/),
+  );
 
   const nextImage = () => {
     setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
@@ -62,12 +64,12 @@ const Performance = () => {
               Photo Gallery
             </h3>
 
-            <div className="relative w-full max-w-5xl mx-auto overflow-hidden rounded-xl">
+            <div className="relative w-full max-w-5xl mx-auto overflow-hidden rounded-xl aspect-[4/3] bg-black">
               {/* Image */}
               <img
                 src={images[currentImageIndex]}
                 alt="Performance gallery"
-                className="w-full h-[450px] object-cover transition-opacity duration-500"
+                className="w-full h-full object-contain bg-black transition-opacity duration-500"
               />
 
               {/* Left Arrow */}
