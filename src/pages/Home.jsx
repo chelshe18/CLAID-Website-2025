@@ -10,17 +10,17 @@ const Home = () => {
         <div className="container mx-auto px-6 min-h-[70vh] flex items-center">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center w-full">
             {/* Text */}
-            <div className="text-center lg:text-left">
+            <div className="text-left">
               <h1 className="maintext text-5xl md:text-6xl xl:text-7xl font-extrabold tracking-tight mb-6">
                 CLAID @ UIUC
               </h1>
 
-              <p className="maintext text-xl md:text-2xl leading-relaxed opacity-90 max-w-xl mx-auto lg:mx-0 mb-4">
+              <p className="text-gray-700 text-lg leading-relaxed max-w-xl mb-4">
                 Building connections between students who share a passion for
                 Chinese language and culture since 2015.
               </p>
 
-              <p className="maintext text-lg opacity-80 mb-10">
+              <p className="text-gray-600 mb-10">
                 We welcome everybody of all majors, cultures, and interests!
               </p>
 
@@ -33,7 +33,7 @@ const Home = () => {
 
                 <Link
                   to="/connect"
-                  className="no-underline px-7 py-3 bg-[#D66A6A] text-white font-semibold rounded-xl shadow hover:brightness-110 active:scale-95 transition"
+                  className="uppercase tracking-wide no-underline px-7 py-3 bg-[#D66A6A] text-white font-semibold rounded-xl shadow hover:brightness-110 active:scale-95 transition"
                 >
                   Contact Us
                 </Link>
