@@ -130,7 +130,7 @@ const Connect = () => {
 
           <div class="w-1/2 my-auto mx-auto">
             <a
-              href="https://calendar.google.com/calendar/u/0?cid=OGVmZWJkMDI5OWM1MjE5YWM3MjQxZDE3MzNlYjU2NmMwMTg3MmQzMzBiZmU0MTc0NGY0NjQ3ZWNmODEwYmEwZkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t"
+              href="https://calendar.google.com/calendar/u/1?cid=YjE4MTM2ZGZkZGYxYmY4OTliODcwNzQ5OWU0ZWM5MzE2ODg0YTBjNjY4NWRlMzA0ZmVjODhlOWFhNGJjMTQxNUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t"
               target="_blank"
             >
               <img
