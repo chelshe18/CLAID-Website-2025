@@ -90,7 +90,8 @@ const Home = () => {
                 </h3>
 
                 <p className="text-sm text-gray-600 mb-5 leading-relaxed">
-                  Blah blah blah blah blah blah blah
+                  Bringing the community together through cultural celebrations
+                  and fun socials.
                 </p>
 
                 <span
@@ -125,7 +126,8 @@ const Home = () => {
                 </h3>
 
                 <p className="text-sm text-gray-600 mb-5 leading-relaxed">
-                  Blah blah blah blah blah blah blah blah blah blah blah
+                  Showcasing Chinese culture through dance, creativity, and
+                  performances throughout the year.
                 </p>
 
                 <span
@@ -160,7 +162,8 @@ const Home = () => {
                 </h3>
 
                 <p className="text-sm text-gray-600 mb-5 leading-relaxed">
-                  Blah blah blah blah blah blah blah blah blah blah blah
+                  Promoting language learning and cultural exchange through
+                  tutoring and Chinese Corner.
                 </p>
 
                 <span
