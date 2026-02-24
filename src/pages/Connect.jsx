@@ -86,7 +86,7 @@ const Connect = () => {
           </a>
 
           <div class="w-1/3 my-auto">
-            <a href="https://discord.gg/zhPJYnn2" target="_blank">
+            <a href="https://discord.gg/zZbdTnfArs" target="_blank">
               <img
                 src={`${process.env.PUBLIC_URL}/images/discord2.gif`}
                 class="w-[90px] aspect-auto mx-auto cursor-pointer transition-transform duration-300 hover:scale-[1.3]"
