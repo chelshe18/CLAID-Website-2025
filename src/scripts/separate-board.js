@@ -23,7 +23,9 @@ members.forEach((member) => {
 
   // Strip branch prefix from the displayed position (e.g. "Events Operations Director" -> "Operations Director")
   const strippedPosition = stripBranch(member.position);
-  const memberCopy = { ...member, position: strippedPosition };
+  const memberCopy = positionLower.includes("chair")
+    ? member
+    : { ...member, position: strippedPosition };
 
   // Check which category the member belongs to and push them to the respective array
   if (
