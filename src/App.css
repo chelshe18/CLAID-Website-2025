@@ -1,23 +1,60 @@
 @import "tailwindcss/base";
-
 @import "tailwindcss/components";
-
 @import "tailwindcss/utilities";
 
+/* ===== GLOBAL STYLES ===== */
 html {
   height: 100%;
 }
+
 body {
+  font-family: Comfortaa;
   min-height: 100vh;
   padding: 0;
 }
 
-/* MAIN NAV BAR */
+a {
+  text-decoration: none;
+}
+
+/* ===== TYPOGRAPHY ===== */
+.headers {
+  text-align: center;
+  color: #d14c4c;
+}
+
+h1.headers {
+  font-size: 50px;
+}
+
+h2.headers {
+  font-size: 30px;
+}
+
+h3.headers {
+  font-size: 17px;
+  color: #070707;
+}
+
+p.headers {
+  color: black;
+}
+
+.maintext {
+  color: #1a3a5c;
+}
+
+h1.maintext {
+  font-family: Comfortaa;
+  color: #d14c4c;
+}
+
+/* ===== NAVBAR ===== */
 ul.nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden; /*if the window is clipped, it will hide content*/
+  overflow: hidden;
   box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.25);
   width: 100%;
   display: flex;
@@ -25,13 +62,15 @@ ul.nav {
   align-items: center;
   margin-bottom: 4px;
 }
+
 li.nav {
   padding-left: 5px;
   padding-right: 5px;
 }
+
 li.nav a.nav {
   display: block;
-  color: rgb(211, 92, 92);
+  color: #d35c5c;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -39,166 +78,32 @@ li.nav a.nav {
   font-family: Comfortaa;
   transition:
     background-color 0.3s ease,
-    color 0.1s ease; /* Add transition for smooth hover effect */
+    color 0.1s ease;
 }
+
 li.nav a.nav:hover {
-  background-color: rgb(211, 92, 92);
+  background-color: #d35c5c;
   color: white;
 }
-/* footer
-*/
+
+/* ===== FOOTER ===== */
 footer {
   background-color: transparent;
   height: auto;
 }
+
 .ftext {
   color: white;
   font-family: Comfortaa;
   font-size: 20px;
 }
-/*BODY*/
-body {
-  font-family: Comfortaa;
-}
 
-h1.maintext {
-  margin-left: 150px;
-  color: rgb(211, 92, 92);
-  font-size: 50px;
-  margin-top: 230px;
-}
-h2.maintext {
-  text-align: center;
-  color: rgb(211, 92, 92);
-  font-size: 50px;
-  margin-top: 150px;
-}
-
-p.maintext {
-  margin-left: 150px;
-  margin-top: 30px;
-  color: black;
-  line-height: 150%;
-}
-
-.mainimg {
-  float: right;
-  width: 650px;
-  height: 700px;
-}
-
-.contactbox {
-  width: 600px;
-  margin-left: 150px;
-  box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.25);
-  border-radius: 10px;
-  padding: 15px;
-}
-
-.contacttext {
-  margin-left: 2%;
-  margin-top: 2%;
-}
-
-.contactbutton {
-  background-color: rgb(211, 92, 92);
-  margin-left: 35%;
-  padding: 12px;
-  width: 130px;
-  font-size: 18px;
-  font-family: Comfortaa;
-  color: white;
-  border: 0px;
-  border-radius: 10px;
-  cursor: pointer;
-  box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.25);
-}
-
-/*carousel*/
-.mainTextBackground {
-  width: 600px;
-  padding-top: 40px;
-  padding-bottom: 30px;
-  padding-left: 40px;
-  padding-right: 40px;
-  background-color: rgb(0, 0, 0);
-  opacity: 0.6;
-  margin: auto;
-  bottom: 60px;
-  left: 440px;
-  position: absolute;
-}
-.mainText {
-  /*for the text*/
-  font-size: 40px;
-  color: white;
-  text-align: center;
-  font-family: Comfortaa;
-}
-
-/*branch boxes*/
-.container {
-  text-align: center;
-}
-/* .block {
-  margin-left: 220px;
-  display: inline-block;
-  width: 400px;
-  margin-right: 10px;
-  height: 250px;
-  border: 2px solid;
-  border-color: rgb(240, 238, 238);
-  transition: 0.2s;
-  cursor: pointer;
-} */
-.block:hover {
-  transform: scale(1.1);
-}
-.blocktext {
-  color: white;
-  text-align: center;
-  font-family: Comfortaa;
-  padding-top: 20px;
-  font-size: 32px;
-}
-
-/*branch modals*/
-
-.branchModal {
-  font-family: Comfortaa;
-}
-
-/*board styling*/
-.headers {
-  text-align: center;
-  color: rgb(209, 76, 76);
-}
-p.headers {
-  color: black;
-}
-h1.headers {
-  text-align: center;
-  color: rgb(209, 76, 76);
-  font-size: 50px;
-}
-h2.headers {
-  text-align: center;
-  color: rgb(209, 76, 76);
-  font-size: 30px;
-}
-h3.headers {
-  text-align: center;
-  color: rgb(7, 7, 7);
-  font-size: 17px;
-}
-.board_container {
-  text-align: center;
-  flex-wrap: wrap;
-}
+/* ===== BOARD / PROFILE CARDS ===== */
 .board_div {
   cursor: pointer;
   padding-bottom: 10px;
 }
+
 .board_pic {
   border-radius: 50%;
   width: 150px;
@@ -207,28 +112,22 @@ h3.headers {
   object-fit: cover;
   object-position: center top;
 }
-#board_email {
-  width: 27px;
-  height: 22px;
-  padding-bottom: 3px;
-}
-#board_email:hover {
-  content: url("/public/images/miscellaneous/email_red.png");
-}
-#board_title_box {
+
+.board_title_box {
   display: inline;
 }
+
 #board_title {
   display: inline;
   padding: 0px;
-  color: rgb(209, 76, 76);
+  color: #d14c4c;
+  text-align: center;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   max-width: 150px;
 }
 
-/*modal*/
-
+/* ===== MODAL STYLING ===== */
 .modal_pic {
   width: 250px;
   height: 400px;
@@ -236,60 +135,35 @@ h3.headers {
   padding-right: 20px;
   object-fit: cover;
 }
+
 .modal_question {
-  color: rgb(206, 59, 59);
+  color: #ce3b3b;
   font-size: 14px;
 }
+
 .modal_answer {
   color: black;
   font-size: 14px;
 }
 
-/*connect page*/
-
-.connectdiv {
-  transition: 0.2s;
-}
-
-.connectdiv:hover {
-  transform: scale(1.2);
-}
-
-.tooltip {
-  position: relative;
-  display: inline-block;
-}
-
-/* Tooltip text */
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 120px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  padding: 5px 0;
-  border-radius: 6px;
-
-  /* Position the tooltip text - see examples below! */
-  position: absolute;
-  z-index: 1;
-}
-
-/* Show the tooltip text when you mouse over the tooltip container */
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-}
-
-.formtext {
-  color: rgb(206, 59, 59);
-  font-size: 17px;
-}
+/* ===== FORM STYLING ===== */
 form {
   text-align: center;
 }
+
+textarea {
+  border-radius: 10px;
+  box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.25);
+}
+
+.formtext {
+  color: #ce3b3b;
+  font-size: 17px;
+}
+
+/* ===== BUTTONS ===== */
 .formbutton {
-  background-color: rgb(211, 92, 92);
-  margin-left: 10px;
+  background-color: #d35c5c;
   padding: 12px;
   width: 130px;
   font-size: 18px;
@@ -301,142 +175,72 @@ form {
   box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.25);
   transition: 0.2s;
 }
+
 .formbutton:hover {
   transform: scale(1.1);
 }
 
-textarea {
+.contactbutton {
+  background-color: #d35c5c;
+  padding: 12px;
+  width: 130px;
+  font-size: 18px;
+  font-family: Comfortaa;
+  color: white;
+  border: 0px;
   border-radius: 10px;
+  cursor: pointer;
   box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.25);
 }
 
-/*points*/
-
-#points-table {
-  border-collapse: collapse;
-  width: 40%;
-  border-radius: 10px;
-}
-
-#points-table td,
-#points-table th {
-  border: 1px solid #ddd;
-  padding: 8px;
-}
-
-#points-table tr:nth-child(even) {
-  background-color: #f2f2f2;
-}
-
-#points-table tr:hover {
-  background-color: #ddd;
-}
-
-#points-table th {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: left;
-  background-color: rgb(211, 92, 92);
-  color: white;
-}
-
-.pointheader {
-  color: rgb(211, 92, 92);
-  font-size: 50px;
-  margin-top: 50px;
-  text-align: center;
-}
-
-/*get involved page*/
-.rowhehe {
-  display: flex;
-  height: 400px;
-}
-
-.col1 {
-  flex: 70%;
-}
-
-img.col1 {
-  height: 400px;
-  object-fit: cover;
-  width: 100%;
-}
-
-.col2 {
-  flex: 30%;
-  background-color: rgb(209, 111, 111);
-  text-align: center;
-  color: white;
-}
-
-.getinvolvedbox {
-  height: 400px;
-  width: 300px;
-  margin-left: 118px;
-  text-align: center;
-  display: inline-block;
-  vertical-align: top;
-}
-
-.innerbox {
-  width: 350px;
-  height: 350px;
-  border-style: solid;
-  border-width: 1.5px;
-  border-color: rgb(190, 123, 123);
-  color: rgb(209, 111, 111);
-  border-radius: 15px;
-  padding: 10px;
-  cursor: pointer;
+/* ===== INTERACTIVE ELEMENTS ===== */
+.connectdiv {
   transition: 0.2s;
 }
 
-img.innerbox {
-  width: 200px;
-  height: 200px;
-  object-fit: contain;
-  border: none;
-  margin-top: 20px;
+.connectdiv:hover {
+  transform: scale(1.2);
 }
 
-.innerbox:hover {
-  transform: scale(1.05);
-}
-a {
-  text-decoration: none;
+.block:hover {
+  transform: scale(1.1);
 }
 
-.aboutusimage {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  height: 500px;
-  object-fit: contain;
+.tooltip {
+  position: relative;
+  display: inline-block;
 }
 
-.dropdown-content {
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
   position: absolute;
-  width: 100%;
   z-index: 1;
-  display: none;
 }
 
-.dropdown:hover .dropdown-content {
-  display: block;
+.tooltip:hover .tooltiptext {
+  visibility: visible;
 }
 
-.transition-branches {
-  opacity: 0;
-  transition: opacity 0.5s ease-in-out;
+/* ===== CAROUSEL & TRANSITIONS ===== */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
-.transition-branches.show {
-  opacity: 1;
+.carousel-fade-in {
+  animation: fadeIn 0.5s ease-in-out;
 }
 
-/* styles.css */
 .fade-enter {
   opacity: 0;
 }
@@ -455,11 +259,11 @@ a {
   transition: opacity 200ms ease-out;
 }
 
-/* Slide from right */
 .slide-enter {
   transform: translateX(100%);
   opacity: 0;
 }
+
 .slide-enter-active {
   transform: translateX(0%);
   opacity: 1;
@@ -467,10 +271,12 @@ a {
     transform 600ms ease-in-out,
     opacity 600ms ease-in-out;
 }
+
 .slide-exit {
   transform: translateX(0%);
   opacity: 1;
 }
+
 .slide-exit-active {
   transform: translateX(-100%);
   opacity: 0;
@@ -478,16 +284,17 @@ a {
     transform 600ms ease-in-out,
     opacity 600ms ease-in-out;
 }
+
 .slide-enter,
 .slide-exit {
   will-change: transform, opacity;
 }
 
-/* Fade and scale */
 .fade-scale-enter {
   transform: scale(0.9);
   opacity: 0;
 }
+
 .fade-scale-enter-active {
   transform: scale(1);
   opacity: 1;
@@ -495,10 +302,12 @@ a {
     transform 300ms ease-in-out,
     opacity 300ms ease-in-out;
 }
+
 .fade-scale-exit {
   transform: scale(1);
   opacity: 1;
 }
+
 .fade-scale-exit-active {
   transform: scale(0.9);
   opacity: 0;
@@ -507,6 +316,7 @@ a {
     opacity 300ms ease-in-out;
 }
 
+/* ===== CHAT MESSAGES ===== */
 .chat {
   --rad: 20px;
   --rad-sm: 3px;
@@ -529,7 +339,6 @@ a {
   border-radius: var(--rad) var(--rad-sm) var(--rad-sm) var(--rad);
   background: #42a5f5;
   color: #fff;
-  /* moves it to the right */
   margin-left: auto;
 }
 
@@ -537,11 +346,8 @@ a {
   border-radius: var(--rad-sm) var(--rad) var(--rad) var(--rad-sm);
   background: #f1f1f1;
   color: #555;
-  /* moves it to the left */
   margin-right: auto;
 }
-
-/* Improve radius for messages group */
 
 .msg.sent:first-child,
 .msg.rcvd + .msg.sent {
@@ -553,8 +359,6 @@ a {
   border-top-left-radius: var(--rad);
 }
 
-/* time */
-
 .msg::before {
   content: attr(data-time);
   font-size: 0.8rem;
@@ -562,7 +366,6 @@ a {
   bottom: 100%;
   color: #888;
   white-space: nowrap;
-  /* Hidden by default */
   display: none;
 }
 
@@ -574,12 +377,9 @@ a {
   left: 15px;
 }
 
-/* Show time only for first message in group */
-
 .msg:first-child::before,
 .msg.sent + .msg.rcvd::before,
 .msg.rcvd + .msg.sent::before {
-  /* Show only for first message in group */
   display: block;
 }
 
@@ -604,16 +404,51 @@ a {
   margin-bottom: -10px;
 }
 
+/* ===== TABLES ===== */
+#points-table {
+  border-collapse: collapse;
+  width: 40%;
+  border-radius: 10px;
+}
+
+#points-table td,
+#points-table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#points-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#points-table tr:hover {
+  background-color: #ddd;
+}
+
+#points-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #d35c5c;
+  color: white;
+}
+
+.pointheader {
+  color: #d35c5c;
+  font-size: 50px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+/* ===== UTILITY CLASSES ===== */
 .multi-column-list {
   display: grid;
-  grid-template-columns: repeat(
-    auto-fill,
-    minmax(150px, 1fr)
-  ); /* Adjust 150px to your desired column width */
-  gap: 1rem; /* Adjust the gap between items */
-  list-style-type: disc; /* Ensures bullet points are shown */
-  padding-left: 20px; /* Adjust for proper indentation */
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 1rem;
+  list-style-type: disc;
+  padding-left: 20px;
 }
+
 .multi-column-list li {
-  list-style-position: inside; /* Ensures bullet points are within the content box */
+  list-style-position: inside;
 }
