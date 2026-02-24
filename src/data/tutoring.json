@@ -1,5 +1,16 @@
 [
   {
+    "name": "Almoatasim (Al) Shahbain",
+    "position": "Tutoring Chair",
+    "major": "Political Science + Philosophy",
+    "grade": "Senior",
+    "hometown": "Burr Ridge, IL",
+    "hobbies": "Drinking coffee while watching favorite tv shows",
+    "funFact": "I'm a Boren Scholar (Department of Defense National Security Education Program)",
+    "imageUrl": "images/board/Almoatasim.png",
+    "netid": ""
+  },
+  {
     "name": "Yan Heng Liu",
     "position": "Branch Member",
     "major": "Accounting + Data Science",
@@ -22,7 +33,7 @@
     "netid": ""
   },
   {
-    "name": "Zhouzi Wang (Kevin)",
+    "name": "Zhouzi (Kevin) Wang",
     "position": "Branch Member",
     "major": "Mathematics",
     "grade": "Freshman",

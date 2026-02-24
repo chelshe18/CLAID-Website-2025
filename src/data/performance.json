@@ -1,5 +1,27 @@
 [
   {
+    "name": "Jerrick Chen",
+    "position": "President + Performance Chair",
+    "major": "Accountancy + Data Science",
+    "grade": "Accountancy + Data Science",
+    "hometown": "Chicago, IL",
+    "hobbies": "Pickleball, Strategy Games, Thrifting",
+    "funFact": "My chess rating is 300 :(",
+    "imageUrl": "images/board/Jerrick.png",
+    "netid": ""
+  },
+  {
+    "name": "Sydney Choi",
+    "position": "Performance Chair",
+    "major": "Psychology",
+    "grade": "Sophomore",
+    "hometown": "Chicago",
+    "hobbies": "Dancing, journaling, baking",
+    "funFact": "I like drawing fish",
+    "imageUrl": "images/board/Sydney.png",
+    "netid": ""
+  },
+  {
     "name": "Yingen Mei",
     "position": "Public Relations Director",
     "major": "Financial Planning",
@@ -22,17 +44,6 @@
     "netid": ""
   },
   {
-    "name": "Jerrick Chen",
-    "position": "President + Performance Chair",
-    "major": "Accountancy + Data Science",
-    "grade": "Sophomore",
-    "hometown": "Chicago, IL",
-    "hobbies": "Pickleball, Strategy Games, Thrifting",
-    "funFact": "My chess rating is 300 :(",
-    "imageUrl": "images/board/Jerrick.png",
-    "netid": ""
-  },
-  {
     "name": "Emilia Zheng",
     "position": "Outreach Director",
     "major": "Psychology",
@@ -52,6 +63,17 @@
     "hobbies": "baking, video games, 8-ball",
     "funFact": "i accidentally spent $60 on one sea urchin in japan",
     "imageUrl": "images/board/Yinglin.png",
+    "netid": ""
+  },
+  {
+    "name": "Jiayan Wu",
+    "position": "Fundraising Director",
+    "major": "Psychology Major, Public Health and Advertising Minor",
+    "grade": "Junior",
+    "hometown": "Chicago",
+    "hobbies": "Dance, Cooking, Baking",
+    "funFact": "I have performed to over 100 songs in my lifetime.",
+    "imageUrl": "images/board/Jiayan.png",
     "netid": ""
   }
 ]

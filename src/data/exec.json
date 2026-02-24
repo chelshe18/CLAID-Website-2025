@@ -1,24 +1,35 @@
 [
   {
-    "name": "Angela Huang",
-    "position": "Treasurer",
-    "major": "Accountancy and Information Systems",
-    "grade": "Sophomore",
-    "hometown": "Chicago, IL",
-    "hobbies": "trying new foods, listening to music",
-    "funFact": "I really like Affy Tapples.",
-    "imageUrl": "images/board/Angela.png",
-    "netid": ""
-  },
-  {
     "name": "Jerrick Chen",
     "position": "President + Performance Chair",
     "major": "Accountancy + Data Science",
-    "grade": "Sophomore",
+    "grade": "Accountancy + Data Science",
     "hometown": "Chicago, IL",
     "hobbies": "Pickleball, Strategy Games, Thrifting",
     "funFact": "My chess rating is 300 :(",
     "imageUrl": "images/board/Jerrick.png",
+    "netid": ""
+  },
+  {
+    "name": "Sydney Choi",
+    "position": "Performance Chair",
+    "major": "Psychology",
+    "grade": "Sophomore",
+    "hometown": "Chicago",
+    "hobbies": "Dancing, journaling, baking",
+    "funFact": "I like drawing fish",
+    "imageUrl": "images/board/Sydney.png",
+    "netid": ""
+  },
+  {
+    "name": "Almoatasim (Al) Shahbain",
+    "position": "Tutoring Chair",
+    "major": "Political Science + Philosophy",
+    "grade": "Senior",
+    "hometown": "Burr Ridge, IL",
+    "hobbies": "Drinking coffee while watching favorite tv shows",
+    "funFact": "I'm a Boren Scholar (Department of Defense National Security Education Program)",
+    "imageUrl": "images/board/Almoatasim.png",
     "netid": ""
   },
   {
@@ -28,8 +39,19 @@
     "grade": "Senior",
     "hometown": "Chicago, IL",
     "hobbies": "Taekwondo, collecting stationery, watching kdramas",
-    "funFact": "something",
+    "funFact": "I can read the Korean alphabet but don't spreak Korean so I don't know what the words mean.",
     "imageUrl": "images/board/Chelsea.png",
+    "netid": ""
+  },
+  {
+    "name": "Angela Huang",
+    "position": "Treasurer",
+    "major": "Accountancy and Information Systems",
+    "grade": "Sophomore",
+    "hometown": "Chicago, IL",
+    "hobbies": "trying new foods, listening to music",
+    "funFact": "I really like Affy Tapples.",
+    "imageUrl": "images/board/Angela.png",
     "netid": ""
   }
 ]

@@ -1,5 +1,16 @@
 [
   {
+    "name": "Chelsea He-Chen",
+    "position": "Events Chair",
+    "major": "Computer Science",
+    "grade": "Senior",
+    "hometown": "Chicago, IL",
+    "hobbies": "Taekwondo, collecting stationery, watching kdramas",
+    "funFact": "I can read the Korean alphabet but don't spreak Korean so I don't know what the words mean.",
+    "imageUrl": "images/board/Chelsea.png",
+    "netid": ""
+  },
+  {
     "name": "Katie Siu",
     "position": "Fundraising Director",
     "major": "Accountancy + DS",
@@ -30,17 +41,6 @@
     "hobbies": "badminton, dancing, watching cdramas",
     "funFact": "When I visited China last summer, I got to see Mao Zedong's embalmed body in person.",
     "imageUrl": "images/board/Tiffany.png",
-    "netid": ""
-  },
-  {
-    "name": "Chelsea He-Chen",
-    "position": "Chair",
-    "major": "Computer Science",
-    "grade": "Senior",
-    "hometown": "Chicago, IL",
-    "hobbies": "Taekwondo, collecting stationery, watching kdramas",
-    "funFact": "something",
-    "imageUrl": "images/board/Chelsea.png",
     "netid": ""
   }
 ]

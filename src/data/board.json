@@ -1,5 +1,60 @@
 [
   {
+    "name": "Jerrick Chen",
+    "position": "President + Performance Chair",
+    "major": "Accountancy + Data Science",
+    "grade": "Accountancy + Data Science",
+    "hometown": "Chicago, IL",
+    "hobbies": "Pickleball, Strategy Games, Thrifting",
+    "funFact": "My chess rating is 300 :(",
+    "imageUrl": "images/board/Jerrick.png",
+    "netid": ""
+  },
+  {
+    "name": "Sydney Choi",
+    "position": "Performance Chair",
+    "major": "Psychology",
+    "grade": "Sophomore",
+    "hometown": "Chicago",
+    "hobbies": "Dancing, journaling, baking",
+    "funFact": "I like drawing fish",
+    "imageUrl": "images/board/Sydney.png",
+    "netid": ""
+  },
+  {
+    "name": "Almoatasim (Al) Shahbain",
+    "position": "Tutoring Chair",
+    "major": "Political Science + Philosophy",
+    "grade": "Senior",
+    "hometown": "Burr Ridge, IL",
+    "hobbies": "Drinking coffee while watching favorite tv shows",
+    "funFact": "I'm a Boren Scholar (Department of Defense National Security Education Program)",
+    "imageUrl": "images/board/Almoatasim.png",
+    "netid": ""
+  },
+  {
+    "name": "Chelsea He-Chen",
+    "position": "Events Chair",
+    "major": "Computer Science",
+    "grade": "Senior",
+    "hometown": "Chicago, IL",
+    "hobbies": "Taekwondo, collecting stationery, watching kdramas",
+    "funFact": "I can read the Korean alphabet but don't spreak Korean so I don't know what the words mean.",
+    "imageUrl": "images/board/Chelsea.png",
+    "netid": ""
+  },
+  {
+    "name": "Angela Huang",
+    "position": "Treasurer",
+    "major": "Accountancy and Information Systems",
+    "grade": "Sophomore",
+    "hometown": "Chicago, IL",
+    "hobbies": "trying new foods, listening to music",
+    "funFact": "I really like Affy Tapples.",
+    "imageUrl": "images/board/Angela.png",
+    "netid": ""
+  },
+  {
     "name": "Yan Heng Liu",
     "position": "Tutoring Branch Member",
     "major": "Accounting + Data Science",
@@ -33,17 +88,6 @@
     "netid": ""
   },
   {
-    "name": "Angela Huang",
-    "position": "Treasurer",
-    "major": "Accountancy and Information Systems",
-    "grade": "Sophomore",
-    "hometown": "Chicago, IL",
-    "hobbies": "trying new foods, listening to music",
-    "funFact": "I really like Affy Tapples.",
-    "imageUrl": "images/board/Angela.png",
-    "netid": ""
-  },
-  {
     "name": "Yingen Mei",
     "position": "Performance Public Relations Director",
     "major": "Financial Planning",
@@ -66,7 +110,7 @@
     "netid": ""
   },
   {
-    "name": "Zhouzi Wang (Kevin)",
+    "name": "Zhouzi (Kevin) Wang",
     "position": "Tutoring Branch Member",
     "major": "Mathematics",
     "grade": "Freshman",
@@ -74,17 +118,6 @@
     "hobbies": "Biking",
     "funFact": "Have fishes as pet",
     "imageUrl": "images/board/Zhouzi.png",
-    "netid": ""
-  },
-  {
-    "name": "Jerrick Chen",
-    "position": "President + Performance Chair",
-    "major": "Accountancy + Data Science",
-    "grade": "Sophomore",
-    "hometown": "Chicago, IL",
-    "hobbies": "Pickleball, Strategy Games, Thrifting",
-    "funFact": "My chess rating is 300 :(",
-    "imageUrl": "images/board/Jerrick.png",
     "netid": ""
   },
   {
@@ -132,14 +165,14 @@
     "netid": ""
   },
   {
-    "name": "Chelsea He-Chen",
-    "position": "Events Chair",
-    "major": "Computer Science",
-    "grade": "Senior",
-    "hometown": "Chicago, IL",
-    "hobbies": "Taekwondo, collecting stationery, watching kdramas",
-    "funFact": "something",
-    "imageUrl": "images/board/Chelsea.png",
+    "name": "Jiayan Wu",
+    "position": "Performance Fundraising Director",
+    "major": "Psychology Major, Public Health and Advertising Minor",
+    "grade": "Junior",
+    "hometown": "Chicago",
+    "hobbies": "Dance, Cooking, Baking",
+    "funFact": "I have performed to over 100 songs in my lifetime.",
+    "imageUrl": "images/board/Jiayan.png",
     "netid": ""
   }
 ]
