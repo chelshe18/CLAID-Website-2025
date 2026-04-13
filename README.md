@@ -83,7 +83,7 @@ This data is tab-seperated, and will appear on the `About Us` page in the order 
 
 ### Script pipeline
 
-To update board members, run the full board pipeline with:
+To update board members, run the full board pipeline (after updating `raw_board.csv`) with:
 
 ```bash
 node src/scripts/parse-board.js
