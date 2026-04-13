@@ -1,13 +1,24 @@
 [
   {
     "name": "Jerrick Chen",
-    "position": "President + Performance Chair",
+    "position": "President",
     "major": "Accountancy + Data Science",
     "grade": "Sophomore",
     "hometown": "Chicago, IL",
     "hobbies": "Pickleball, Strategy Games, Thrifting",
     "funFact": "My chess rating is 300 :(",
     "imageUrl": "images/board/Jerrick.png",
+    "netid": ""
+  },
+  {
+    "name": "Sophia Au",
+    "position": "Vice President",
+    "major": "Undeclared",
+    "grade": "Freshman",
+    "hometown": "Chicago, IL",
+    "hobbies": "Dancing, traveling, journaling, arts and crafts",
+    "funFact": "I have 5+ cats and a dog.",
+    "imageUrl": "images/board/Sophia.png",
     "netid": ""
   },
   {
@@ -162,17 +173,6 @@
     "hobbies": "baking, video games, 8-ball",
     "funFact": "i accidentally spent $60 on one sea urchin in japan",
     "imageUrl": "images/board/Yinglin.png",
-    "netid": ""
-  },
-  {
-    "name": "Jiayan Wu",
-    "position": "Performance Fundraising Director",
-    "major": "Psychology Major, Public Health and Advertising Minor",
-    "grade": "Junior",
-    "hometown": "Chicago",
-    "hobbies": "Dance, Cooking, Baking",
-    "funFact": "I have performed to over 100 songs in my lifetime.",
-    "imageUrl": "images/board/Jiayan.png",
     "netid": ""
   }
 ]

@@ -1,13 +1,24 @@
 [
   {
     "name": "Jerrick Chen",
-    "position": "President + Performance Chair",
+    "position": "President",
     "major": "Accountancy + Data Science",
     "grade": "Sophomore",
     "hometown": "Chicago, IL",
     "hobbies": "Pickleball, Strategy Games, Thrifting",
     "funFact": "My chess rating is 300 :(",
     "imageUrl": "images/board/Jerrick.png",
+    "netid": ""
+  },
+  {
+    "name": "Sophia Au",
+    "position": "Vice President",
+    "major": "Undeclared",
+    "grade": "Freshman",
+    "hometown": "Chicago, IL",
+    "hobbies": "Dancing, traveling, journaling, arts and crafts",
+    "funFact": "I have 5+ cats and a dog.",
+    "imageUrl": "images/board/Sophia.png",
     "netid": ""
   },
   {
