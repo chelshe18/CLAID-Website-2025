@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5258fadb.css",
-    "main.js": "/static/js/main.e3f1cb91.js",
+    "main.js": "/static/js/main.16568a43.js",
     "static/media/CLAID 2026 Show Trailer.mp4": "/static/media/CLAID 2026 Show Trailer.c767fe8ac09b5f94f4aa.mp4",
     "static/media/DSC09950.jpg": "/static/media/DSC09950.5ed32f746d171d90d22a.jpg",
     "static/media/Screenshot 2026-02-04 at 1.56.44 AM.png": "/static/media/Screenshot 2026-02-04 at 1.56.44 AM.f432657f751c2a528cde.png",
@@ -36,10 +36,10 @@
     "static/media/logo.png": "/static/media/logo.8402b2568cf69784bbc4.png",
     "index.html": "/index.html",
     "main.5258fadb.css.map": "/static/css/main.5258fadb.css.map",
-    "main.e3f1cb91.js.map": "/static/js/main.e3f1cb91.js.map"
+    "main.16568a43.js.map": "/static/js/main.16568a43.js.map"
   },
   "entrypoints": [
     "static/css/main.5258fadb.css",
-    "static/js/main.e3f1cb91.js"
+    "static/js/main.16568a43.js"
   ]
 }
