@@ -1,4 +1,4 @@
-# CLAID Website 2025
+# CLAID Website
 
 Official website for the Chinese Language Association for International Development (CLAID), bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
