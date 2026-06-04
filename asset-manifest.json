@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.230ae349.css",
-    "main.js": "/static/js/main.e4ffd2e4.js",
+    "main.css": "/static/css/main.026faf69.css",
+    "main.js": "/static/js/main.713e0106.js",
     "static/media/CLAID 2026 Show Trailer.mp4": "/static/media/CLAID 2026 Show Trailer.c767fe8ac09b5f94f4aa.mp4",
     "static/media/DSC09950.jpg": "/static/media/DSC09950.5ed32f746d171d90d22a.jpg",
     "static/media/Screenshot 2026-02-04 at 1.56.44 AM.png": "/static/media/Screenshot 2026-02-04 at 1.56.44 AM.f432657f751c2a528cde.png",
@@ -35,11 +35,11 @@
     "static/media/wushu.png": "/static/media/wushu.c7129640b276a2c4a2ac.png",
     "static/media/logo.png": "/static/media/logo.8402b2568cf69784bbc4.png",
     "index.html": "/index.html",
-    "main.230ae349.css.map": "/static/css/main.230ae349.css.map",
-    "main.e4ffd2e4.js.map": "/static/js/main.e4ffd2e4.js.map"
+    "main.026faf69.css.map": "/static/css/main.026faf69.css.map",
+    "main.713e0106.js.map": "/static/js/main.713e0106.js.map"
   },
   "entrypoints": [
-    "static/css/main.230ae349.css",
-    "static/js/main.e4ffd2e4.js"
+    "static/css/main.026faf69.css",
+    "static/js/main.713e0106.js"
   ]
 }
