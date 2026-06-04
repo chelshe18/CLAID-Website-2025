@@ -40,9 +40,9 @@ function AnimatedRoutes() {
 
 function App() {
   return (
-    <div class="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col">
       <Router>
-        <div class="flex-grow">
+        <div className="flex-grow">
           <NavBar />
           <AnimatedRoutes />
         </div>
