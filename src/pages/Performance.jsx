@@ -46,7 +46,7 @@ const Performance = () => {
                 <span className="font-medium">Date:</span> February 28, 2026
               </p>
               <p>
-                <span className="font-medium">Time:</span> 7:00 PM – 9:00 PM
+                <span className="font-medium">Time:</span> 7:00 PM - 9:00 PM
               </p>
               <p>
                 <span className="font-medium">Location:</span> Lincoln Hall

@@ -46,7 +46,7 @@ const Tutoring = () => {
                 <span className="font-medium">When:</span> Every Thursday
               </p>
               <p>
-                <span className="font-medium">Time:</span> 7:00 PM – 8:30 PM
+                <span className="font-medium">Time:</span> 7:00 PM - 8:30 PM
               </p>
               <p>
                 <span className="font-medium">Location:</span> Illini Union
