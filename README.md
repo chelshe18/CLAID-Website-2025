@@ -36,7 +36,6 @@ You may also see any lint errors in the console.
 - `npm run predeploy`: runs the production build before deploy
 - `npm run deploy`: deploys `build/` using `gh-pages`
 
-Note: `npm run dev` is defined in `package.json` but is not a standard Create React App command.
 
 ## Project Structure
 
@@ -55,7 +54,7 @@ public/
 
 Defined in `src/App.js`:
 
-- `/` Home
+- `/Home`
 - `/about`
 - `/connect`
 - `/events`
@@ -94,6 +93,28 @@ This executes:
 1. `convert-board.js`
 2. `make-board.js`
 3. `separate-board.js`
+
+## Testing
+
+This project uses Jest and React Testing Library through Create React App.
+
+### Run all tests
+
+```bash
+npm test
+```
+
+### Run a specific test file
+
+```bash
+npm test -- Events.test.js
+```
+Other examples:
+```bash
+npm test -- App.test.js
+npm test -- Home.test.js
+npm test -- ImageCarousel.test.js
+```
 
 ## Deployment
 
