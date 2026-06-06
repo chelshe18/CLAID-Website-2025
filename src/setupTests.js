@@ -16,3 +16,5 @@ if (typeof require !== "undefined" && !require.context) {
     return req;
   };
 }
+
+window.scrollTo = jest.fn();

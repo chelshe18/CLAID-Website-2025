@@ -12,6 +12,7 @@ import Events from "./pages/Events.jsx";
 import Performance from "./pages/Performance.jsx";
 import Tutoring from "./pages/Tutoring.jsx";
 import NavBar from "../src/components/NavBar.js";
+import ScrollToTop from "./components/ScrollToTop.js";
 import Home from "../src/pages/Home.jsx";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles.css";
@@ -42,6 +43,8 @@ function App() {
   return (
     <div className="min-h-screen flex flex-col">
       <Router>
+        <ScrollToTop />
+
         <div className="flex-grow">
           <NavBar />
           <AnimatedRoutes />
